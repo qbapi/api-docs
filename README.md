@@ -37,7 +37,7 @@
 https://api.qb.com
 
 ### 调用方式
-使用标准的HTTP协议参数格式，URLEncode字符编码为UTF-8；注：URLEncode为http参数传输的标准，大部分的httpclient已经自动处理。 为了数据安全，平台加入签名认证机制。 服务器端会给每一个客户端分配accessKey及对应的secretKey，用于服务器权限控制和客户端计算签名。客户端要保证secretKey不被泄露。
+使用标准的HTTP协议参数格式，URLEncode字符编码为UTF-8；注：URLEncode为http参数传输的标准，大部分的httpclient已经自动处理。 为了数据安全，平台加入签名认证机制。 用户首先需要在QB平台申请accessKey及对应的secretKey。客户端要保证secretKey不被泄露。
 
 ### 签名规则
 调用API时使用签名，sign=XXXX。
