@@ -64,6 +64,7 @@ WebSocket API 支持订阅服务。订阅请求格式如下：
 *  对上述hash值进行base64编码,并转小写 sign=lower(base64(h))
 
 公共参数：
+
 | 参数名	| 类型 |  说明 |  是否必须  |  默认值  |  备注  |
 | --- | --- | --- | --- | --- | --- |
 |accessKey	| string  | 平台分配的accessKey	  |Y	| | |
