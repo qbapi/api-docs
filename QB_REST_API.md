@@ -339,7 +339,7 @@ https://api.qb.com
   ]
 }
 ```
-###### 获取指历史成交信息
+###### 获取历史成交信息
 - `GET /api/v1/order/historyTrades`
 - 参数：
 
