@@ -330,11 +330,12 @@ WebSocket Server 会返回：
 |  errorCode   |  errorMsg   |
 | --- | --- |
 |0x00001001	| invalid request|
-|0x00001002	| invalid  access key|
-|0x00001003	| access key expired|
-|0x00001004	| wrong time|
-|0x00001005	| ip forbidden|
-|0x00001006	| invalid sign|
+|0x00001002     | unknown request|
+|0x00001003	| invalid  access key|
+|0x00001004	| access key expired|
+|0x00001005	| wrong time|
+|0x00001006	| ip forbidden|
+|0x00001007	| invalid sign|
 |0x00002001	| invalid ping|
 |0x00003001	| invalid topic|
 |0x00003002	| not exists symbol|
