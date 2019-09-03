@@ -34,7 +34,7 @@
 ## API_Summarize
 
 ### How_To_Use
-URL: https://api.qb.com
+URL: https://api2.qb.com
 
 We use query string(for GET) or request body(for POST) as the data format, and UTF-8 characters shoule be URL encoded. Note: URLEncode is the standard for http parameter transmission, and most of the httpclient has been processed automatically.
 The one who want to access the open api should apply an accessKey and a corresponding secretKey.Important Note: Do not reveal your 'accessKey' and 'secretKey' to anyone. They are as important as your password.
