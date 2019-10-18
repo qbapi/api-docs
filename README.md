@@ -190,7 +190,7 @@ https://api2.qb.com
 |symbol|string|交易对|Y|||
 |price|float|价格|Y|0.0|市价单不用传参|
 |amount|float|数量|Y|0.0|大于最小下单量限制|
-|type|string|下单类型|Y||market-市价，limit-限价|
+|type|string|下单类型|Y||market-市价(无效)，limit-限价，best_price-最优价委托|
 |side|string|买卖类型|Y||sell-卖，buy-买|
 
 
@@ -269,7 +269,7 @@ https://api2.qb.com
     "amount": 10.1000000000,
     "price": 100.1000000000,
     "createdAt": 1494901162595, //下单时间
-    "type": "market|limit",
+    "type": "market|limit|best_price",
     "side": "buy|sell",
     "dealedAmount": 10.1000000000, //成交量
     "dealedAvgPrice":1.25555, //平均成交价
@@ -327,7 +327,7 @@ https://api2.qb.com
     "amount": 10.1000000000,
     "price": 100.1000000000,
     "createdAt": 1494901162595, //下单时间
-    "type": "market|limit",
+    "type": "market|limit|best_price",
     "side": "buy|sell",
     "dealedAmount": 10.1000000000, //成交量
     "dealedAvgPrice":1.25555, //平均成交价
@@ -434,6 +434,9 @@ https://api2.qb.com
 | 2009   | 订单类型无效                  |     |
 | 2010   | 拒绝下单                      |     |
 | 2011   | 拒绝撤单                      |     |
+| 2012   | 限价单价格过低                  |     |
+| 2013   | 限价单价格过高                  |     |
+| 2014   | 最优价委托不可用                |     |
 |        |                               |     |
 | 3001   | 用户未登录                    |     |
 | 3002   | 用户无权限                    |     |
