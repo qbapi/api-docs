@@ -34,7 +34,8 @@
 ## API调用说明
 ### API地址
 
-https://api2.qb.com
+https://api2.qb.com 
+https://api1.qbtrade.net (备用地址)
 
 ### 调用方式
 使用标准的HTTP协议参数格式，URLEncode字符编码为UTF-8；注：URLEncode为http参数传输的标准，大部分的httpclient已经自动处理。 为了数据安全，平台加入签名认证机制。 用户首先需要在QB平台申请accessKey及对应的secretKey。客户端要保证secretKey不被泄露。
