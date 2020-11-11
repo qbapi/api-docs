@@ -34,7 +34,7 @@
 ## API调用说明
 ### API地址
 
-https://api2.qb.com 
+https://api2.qb.com  或 
 https://api1.qbtrade.net (备用地址)
 
 ### 调用方式
